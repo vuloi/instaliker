@@ -8,6 +8,9 @@ urls = (
 )
 
 render = web.template.render('templates')
+client_id = ''
+redirect_uri = 'http://instaliker.luxcer.com:8080/authorize'
+scope = 'likes+comments+relationships+basic'
 
 class Authorize:
     def GET(self):
