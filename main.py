@@ -8,7 +8,7 @@ urls = (
 )
 
 render = web.template.render('templates')
-client_id = ''
+client_id = '41036b378e53412688f2e4520eb6ed7e'
 redirect_uri = 'http://instaliker.luxcer.com:8080/authorize'
 scope = 'likes+comments+relationships+basic'
 
