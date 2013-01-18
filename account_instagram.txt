@@ -1,0 +1,37 @@
+vuxuanloi:vuxuanloi
+teslatest:tesla123
+vuloi54:vuxuanloi
+
+
+vuxuanloi's Account:
+	access_token	:	284698267.2658695.cc43136538994516b663f746ac8b155a
+	username		:	vuxuanloi
+	id				:	284698267
+	
+	media_id		:	369835056592786169_284698267
+	media link		:	http://instagr.am/p/Uh6wZFsxL5/
+	
+teslatest's Account:
+	id				:	284813788
+	access_token	:	284813788.2658695.58ab5df2acd1496185945f2351775179
+	username		:	teslatest
+	
+vuloi54's Account:
+	id				:	288412498
+	Media link		:	http://instagr.am/p/UdMylpJw6q/
+	Media id		:	368506997465091754_288412498
+	
+	
+Server Luxcer
+ip: 108.209.106.218
+username = ha
+password = luxcer2012
+
+Server Amazon
+ip:	54.245.234.205
+user: ec2-user
+
+mysql account: root jajsjdjf
+
+CLIENT ID	41036b378e53412688f2e4520eb6ed7e
+CLIENT SECRET	38ff3837ec9e4670939241a3936606ed
