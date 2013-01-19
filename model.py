@@ -1,6 +1,6 @@
 import web, datetime
 
-db = web.database(dbn='mysql', db='test', user='root', passwd='vuxuanloi')
+db = web.database(dbn='mysql', db='test', user='root', passwd='jajsjdjf')
 
 #
 #	Thuc hien cac truy van de CSDL voi users

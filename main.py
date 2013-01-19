@@ -31,7 +31,12 @@ class Authorize:
     		info = eval(stream)
     		access_token = info['access_token']
     		user = info['user']
-    		print user
+    		user_info = eval(user)
+    		username = user_info['username']
+    		user_id = user_info['id']
+    		print "Username: %s" %(username)
+    		print "User-Id: %s" %(user_id)
+    		print "Access-Token: %s" %(access_token)
     		return access_token
     	else:
 	    	api_url = "https://api.instagram.com/oauth/authorize/?client_id=%s&redirect_uri=%s&response_type=code&scope=%s" \
