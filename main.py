@@ -27,9 +27,9 @@ class Authorize:
     		params = urllib.urlencode(params)
     		api_url = "https://api.instagram.com/oauth/access_token"
     		res = urllib.urlopen(api_url, params)
-			stream = str(res.read())
-			info = eval(stream)			
-			return info['access_token']
+    		stream = str(res.read())
+    		info = eval(stream)
+    		return info['access_token']
     	else:
 	    	api_url = "https://api.instagram.com/oauth/authorize/?client_id=%s&redirect_uri=%s&response_type=code&scope=%s" \
     			%(client_id, redirect_uri, scope)
