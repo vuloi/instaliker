@@ -26,7 +26,7 @@ class Authorize:
     		params['code'] = code
     		params = urllib.urlencode(params)
     		api_url = "https://api.instagram.com/oauth/access_token"
-			res = urllib.urlopen(api_url, params)
+    		res = urllib.urlopen(api_url, params)
 			stream = str(res.read())
 			info = eval(stream)			
 			return info['access_token']
